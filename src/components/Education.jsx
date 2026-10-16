@@ -8,11 +8,11 @@ function Education({education}) {
           {
             education.map((item)=>(
               <div className="card" key={item.degree}>
-            <p className="year">{item.year}</p>
-            <h3>{item.degree}</h3>
-            <p>{item.degree}</p>
-            <p className="muted">{item.description}</p>
-          </div>
+                <p className="year">{item.year}</p>
+                <h3>{item.degree}</h3>
+                <p>{item.college}</p>
+                <p className="muted">{item.description}</p>
+              </div>
             ))
           }
         </div>

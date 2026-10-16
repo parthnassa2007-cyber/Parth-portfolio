@@ -8,9 +8,9 @@ function Hero({data}) {
 
       <div className="container hero-inner">
         <div>
-          <p className="hero-greeting">hi i am {data.name}</p>
-          <h1 className="hero-title gradient-text"> {data.role}</h1>
-          <p className="hero-text"> {data.tagline}</p>
+          <p className="hero-greeting">Hi,I'm {data.name}</p>
+          <h1 className="hero-title gradient-text">{data.role}</h1>
+          <p className="hero-text">{data.tagline}</p>
 
           <a href="#projects" className="btn btn-primary">Explore my work</a>
 
@@ -19,8 +19,6 @@ function Hero({data}) {
             <a className="icon-link" href={data.socials.linkedin}><Linkedin size={20} /></a>
           </div>
         </div>
-
-5
 
         <div className="hero-photo">
           <img src={data.profileImage} alt={data.name} />
